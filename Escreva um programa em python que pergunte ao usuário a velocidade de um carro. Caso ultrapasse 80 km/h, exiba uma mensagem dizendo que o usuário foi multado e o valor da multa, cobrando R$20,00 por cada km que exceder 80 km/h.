@@ -1,0 +1,6 @@
+velocidade = float(input("Por favor, informe a velocidade do carro!: "))
+multa = (velocidade - 80) * 20
+if velocidade > 80:
+    print("Velocidade excedida! Você foi multado. O valor da multa será: R$",format(multa))
+else:
+    print("Velocidade não excedida!")
